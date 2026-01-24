@@ -1,0 +1,14 @@
+{
+  "item.academymod.raw_auric": "Raw Auric",
+  "item.academymod.auric_shard": "Auric Shard",
+
+
+
+  "academymod.configuration.title": "Academy Mod Configs",
+  "academymod.configuration.section.academymod.common.toml": "Academy Mod Configs",
+  "academymod.configuration.section.academymod.common.toml.title": "Academy Mod Configs",
+  "academymod.configuration.items": "Item List",
+  "academymod.configuration.logDirtBlock": "Log Dirt Block",
+  "academymod.configuration.magicNumberIntroduction": "Magic Number Text",
+  "academymod.configuration.magicNumber": "Magic Number"
+}
