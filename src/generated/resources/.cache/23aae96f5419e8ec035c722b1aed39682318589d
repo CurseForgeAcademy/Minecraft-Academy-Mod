@@ -1,5 +1,14 @@
-// 1.21.11	2026-01-24T12:53:51.1758516	Model Definitions - academymod
+// 1.21.11	2026-01-24T13:18:42.1877646	Model Definitions - academymod
+93e18535dab50da39b57a796f55bbee0306e975a assets/academymod/blockstates/auric_block.json
+525a32deb33a9df122db2390edccc66d7c16670c assets/academymod/blockstates/auric_deepslate_ore.json
+fdae4abada899b542e03c8fc705bbab98ce94bbf assets/academymod/blockstates/auric_ore.json
+34ac5989be357f8fa7e30258b6b6b8694f14214b assets/academymod/items/auric_block.json
+c8c6f19d7bad5a872a49614ba12538b275b3cc22 assets/academymod/items/auric_deepslate_ore.json
+a2ad30065e1bbe386e25ec0eabec8eb675949c48 assets/academymod/items/auric_ore.json
 2ef8c305849a5505ed01bf0759a32593c3bbc954 assets/academymod/items/auric_shard.json
 280360966abcf060535f543947eb4ae6ebef05a7 assets/academymod/items/raw_auric.json
+be2f3be0cb30f59d6447369174d2986682a98a17 assets/academymod/models/block/auric_block.json
+e7a14d0d2c0d76ca2fdb773cff9c9ec0e3be1f9f assets/academymod/models/block/auric_deepslate_ore.json
+e52446741c46f3269ddc4c423ca098317c9ee0dd assets/academymod/models/block/auric_ore.json
 74aec30d50131b84d4b7f199039a298fdebe2949 assets/academymod/models/item/auric_shard.json
 60834a6ba5bd1eb12e8c5b01031cb2a2c8f4700a assets/academymod/models/item/raw_auric.json

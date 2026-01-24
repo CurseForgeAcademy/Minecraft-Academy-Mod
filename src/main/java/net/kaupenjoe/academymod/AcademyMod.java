@@ -1,5 +1,6 @@
 package net.kaupenjoe.academymod;
 
+import net.kaupenjoe.academymod.block.ModBlocks;
 import net.kaupenjoe.academymod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -47,6 +48,7 @@ public class AcademyMod {
         modEventBus.addListener(this::commonSetup);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (AcademyMod) to respond directly to events.
@@ -78,6 +80,12 @@ public class AcademyMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RAW_AURIC);
             event.accept(ModItems.AURIC_SHARD);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.AURIC_BLOCK);
+            event.accept(ModBlocks.AURIC_ORE);
+            event.accept(ModBlocks.AURIC_DEEPSLATE_ORE);
         }
     }
 

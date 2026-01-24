@@ -2,6 +2,10 @@
   "item.academymod.raw_auric": "Raw Auric",
   "item.academymod.auric_shard": "Auric Shard",
 
+  "block.academymod.auric_block": "Block of Auric",
+  "block.academymod.auric_ore": "Auric Ore",
+  "block.academymod.auric_deepslate_ore": "Auric Deepslate Ore",
+
 
 
   "academymod.configuration.title": "Academy Mod Configs",
