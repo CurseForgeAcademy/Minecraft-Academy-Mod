@@ -22,6 +22,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_AURIC);
                         output.accept(ModItems.AURIC_SHARD);
 
+                        output.accept(ModItems.AURIC_SWORD);
+                        output.accept(ModItems.AURIC_PICKAXE);
+                        output.accept(ModItems.AURIC_SHOVEL);
+                        output.accept(ModItems.AURIC_AXE);
+                        output.accept(ModItems.AURIC_HOE);
+
                         output.accept(ModBlocks.AURIC_BLOCK);
                         output.accept(ModBlocks.AURIC_ORE);
                         output.accept(ModBlocks.AURIC_DEEPSLATE_ORE);

@@ -9,6 +9,7 @@ import net.minecraft.data.recipes.RecipeCategory;
 import net.minecraft.data.recipes.RecipeOutput;
 import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.SimpleCookingRecipeBuilder;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
@@ -55,6 +56,48 @@ public class ModRecipeProvider extends RecipeProvider {
 
         oreSmelting(AURIC_SMELTABLES, RecipeCategory.MISC, ModItems.AURIC_SHARD.get(), 0.25f, 200, "auric");
         oreBlasting(AURIC_SMELTABLES, RecipeCategory.MISC, ModItems.AURIC_SHARD.get(), 0.25f, 100, "auric");
+
+
+        shaped(RecipeCategory.MISC, ModItems.AURIC_SWORD.get())
+                .pattern("A")
+                .pattern("A")
+                .pattern("S")
+                .define('A', ModItems.AURIC_SHARD.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.AURIC_SHARD.get()), has(ModItems.AURIC_SHARD.get())).save(this.output);
+
+        shaped(RecipeCategory.MISC, ModItems.AURIC_PICKAXE.get())
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModItems.AURIC_SHARD.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.AURIC_SHARD.get()), has(ModItems.AURIC_SHARD.get())).save(this.output);
+
+        shaped(RecipeCategory.MISC, ModItems.AURIC_SHOVEL.get())
+                .pattern("A")
+                .pattern("S")
+                .pattern("S")
+                .define('A', ModItems.AURIC_SHARD.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.AURIC_SHARD.get()), has(ModItems.AURIC_SHARD.get())).save(this.output);
+
+        shaped(RecipeCategory.MISC, ModItems.AURIC_AXE.get())
+                .pattern("AA")
+                .pattern("SA")
+                .pattern("S ")
+                .define('A', ModItems.AURIC_SHARD.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.AURIC_SHARD.get()), has(ModItems.AURIC_SHARD.get())).save(this.output);
+
+        shaped(RecipeCategory.MISC, ModItems.AURIC_HOE.get())
+                .pattern("AA")
+                .pattern("S ")
+                .pattern("S ")
+                .define('A', ModItems.AURIC_SHARD.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.AURIC_SHARD.get()), has(ModItems.AURIC_SHARD.get())).save(this.output);
+
     }
 
     @Override

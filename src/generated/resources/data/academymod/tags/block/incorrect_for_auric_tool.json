@@ -1,0 +1,8 @@
+{
+  "remove": [
+    "#academymod:needs_auric_tool"
+  ],
+  "values": [
+    "#minecraft:incorrect_for_iron_tool"
+  ]
+}

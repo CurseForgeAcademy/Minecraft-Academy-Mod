@@ -24,6 +24,11 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(ModItems.AURIC_SHARD.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.RAW_AURIC.get(), ModelTemplates.FLAT_ITEM);
 
+        itemModels.generateFlatItem(ModItems.AURIC_SWORD.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModels.generateFlatItem(ModItems.AURIC_PICKAXE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModels.generateFlatItem(ModItems.AURIC_SHOVEL.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModels.generateFlatItem(ModItems.AURIC_AXE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+        itemModels.generateFlatItem(ModItems.AURIC_HOE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
 
         blockModels.createTrivialCube(ModBlocks.AURIC_BLOCK.get());
         blockModels.createTrivialCube(ModBlocks.AURIC_ORE.get());
