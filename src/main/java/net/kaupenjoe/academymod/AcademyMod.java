@@ -1,6 +1,7 @@
 package net.kaupenjoe.academymod;
 
 import net.kaupenjoe.academymod.block.ModBlocks;
+import net.kaupenjoe.academymod.item.ModCreativeModeTabs;
 import net.kaupenjoe.academymod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -46,6 +47,8 @@ public class AcademyMod {
     public AcademyMod(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
