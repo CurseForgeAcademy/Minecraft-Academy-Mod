@@ -1,11 +1,7 @@
 package net.kaupenjoe.academymod;
 
 import com.mojang.logging.LogUtils;
-import net.kaupenjoe.academymod.block.ModBlocks;
-import net.kaupenjoe.academymod.item.ModCreativeModeTabs;
-import net.kaupenjoe.academymod.item.ModItems;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -31,11 +27,6 @@ public class AcademyMod {
     public AcademyMod(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
-        ModCreativeModeTabs.register(modEventBus);
-
-        ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (AcademyMod) to respond directly to events.
@@ -64,16 +55,7 @@ public class AcademyMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.RAW_AURIC);
-            event.accept(ModItems.AURIC_SHARD);
-        }
 
-        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-            event.accept(ModBlocks.AURIC_BLOCK);
-            event.accept(ModBlocks.AURIC_ORE);
-            event.accept(ModBlocks.AURIC_DEEPSLATE_ORE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

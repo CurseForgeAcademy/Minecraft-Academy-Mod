@@ -1,7 +1,0 @@
-// 1.21.11	2026-01-25T15:52:51.0993895	Tags for minecraft:item mod id academymod
-1200cedac8fb57824ca36904ba6468ee3ff8d35d data/academymod/tags/item/auric_repairables.json
-38eca880ae5073af6308377c606e68baa13dacc5 data/minecraft/tags/item/axes.json
-f916ae87b1557c08402aa6f710a230a2ea6d500f data/minecraft/tags/item/hoes.json
-4666d1855ef378b2136629726bdc7ead477a1052 data/minecraft/tags/item/pickaxes.json
-e53591df9dbdd3736976c68d50e53143e59e8957 data/minecraft/tags/item/shovels.json
-95d28c825b24dde11ce0d43fcc2807b1096819c1 data/minecraft/tags/item/swords.json

@@ -1,20 +1,4 @@
 {
-  "item.academymod.raw_auric": "Raw Auric",
-  "item.academymod.auric_shard": "Auric Shard",
-
-  "item.academymod.auric_sword": "Auric Sword",
-  "item.academymod.auric_pickaxe": "Auric Pickaxe",
-  "item.academymod.auric_shovel": "Auric Shovel",
-  "item.academymod.auric_axe": "Auric Axe",
-  "item.academymod.auric_hoe": "Auric Hoe",
-
-  "block.academymod.auric_block": "Block of Auric",
-  "block.academymod.auric_ore": "Auric Ore",
-  "block.academymod.auric_deepslate_ore": "Auric Deepslate Ore",
-
-  "creativetab.academymod.academy_tab": "Academy Tab",
-
-
   "academymod.configuration.title": "Academy Mod Configs",
   "academymod.configuration.section.academymod.common.toml": "Academy Mod Configs",
   "academymod.configuration.section.academymod.common.toml.title": "Academy Mod Configs",
