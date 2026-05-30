@@ -2,6 +2,7 @@ package net.kaupenjoe.academymod;
 
 import com.mojang.logging.LogUtils;
 import net.kaupenjoe.academymod.block.ModBlocks;
+import net.kaupenjoe.academymod.data.ModDataAttachments;
 import net.kaupenjoe.academymod.item.ModCreativeModeTabs;
 import net.kaupenjoe.academymod.item.ModItems;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -36,6 +37,8 @@ public class AcademyMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataAttachments.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (AcademyMod) to respond directly to events.

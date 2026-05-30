@@ -28,9 +28,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AURIC_AXE);
                         output.accept(ModItems.AURIC_HOE);
 
+                        output.accept(ModItems.AURIC_HELMET);
+                        output.accept(ModItems.AURIC_CHESTPLATE);
+                        output.accept(ModItems.AURIC_LEGGINGS);
+                        output.accept(ModItems.AURIC_BOOTS);
+
+
                         output.accept(ModBlocks.AURIC_BLOCK);
                         output.accept(ModBlocks.AURIC_ORE);
                         output.accept(ModBlocks.AURIC_DEEPSLATE_ORE);
+
+
                     }).build());
 
     public static void register(IEventBus eventBus) {

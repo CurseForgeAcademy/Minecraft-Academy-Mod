@@ -30,5 +30,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.AURIC_AXE.get());
         tag(ItemTags.HOES)
                 .add(ModItems.AURIC_HOE.get());
+
+        tag(ItemTags.HEAD_ARMOR).add(ModItems.AURIC_HELMET.get());
+        tag(ItemTags.CHEST_ARMOR).add(ModItems.AURIC_CHESTPLATE.get());
+        tag(ItemTags.LEG_ARMOR).add(ModItems.AURIC_LEGGINGS.get());
+        tag(ItemTags.FOOT_ARMOR).add(ModItems.AURIC_BOOTS.get());
+
     }
 }

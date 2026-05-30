@@ -8,6 +8,12 @@
   "item.academymod.auric_axe": "Auric Axe",
   "item.academymod.auric_hoe": "Auric Hoe",
 
+  "item.academymod.auric_helmet": "Auric Helmet",
+  "item.academymod.auric_chestplate": "Auric Chestplate",
+  "item.academymod.auric_leggings": "Auric Leggings",
+  "item.academymod.auric_boots": "Auric Boots",
+
+
   "block.academymod.auric_block": "Block of Auric",
   "block.academymod.auric_ore": "Auric Ore",
   "block.academymod.auric_deepslate_ore": "Auric Deepslate Ore",

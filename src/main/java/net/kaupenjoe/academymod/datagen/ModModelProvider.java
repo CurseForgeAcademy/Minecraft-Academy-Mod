@@ -2,6 +2,7 @@ package net.kaupenjoe.academymod.datagen;
 
 import net.kaupenjoe.academymod.AcademyMod;
 import net.kaupenjoe.academymod.block.ModBlocks;
+import net.kaupenjoe.academymod.item.ModArmorMaterials;
 import net.kaupenjoe.academymod.item.ModItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
@@ -29,6 +30,12 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(ModItems.AURIC_SHOVEL.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.AURIC_AXE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.AURIC_HOE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
+
+        itemModels.generateTrimmableItem(ModItems.AURIC_HELMET.get(), ModArmorMaterials.AURIC_KEY, ItemModelGenerators.TRIM_PREFIX_HELMET, false);
+        itemModels.generateTrimmableItem(ModItems.AURIC_CHESTPLATE.get(), ModArmorMaterials.AURIC_KEY, ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
+        itemModels.generateTrimmableItem(ModItems.AURIC_LEGGINGS.get(), ModArmorMaterials.AURIC_KEY, ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);
+        itemModels.generateTrimmableItem(ModItems.AURIC_BOOTS.get(), ModArmorMaterials.AURIC_KEY, ItemModelGenerators.TRIM_PREFIX_BOOTS, false);
+
 
         blockModels.createTrivialCube(ModBlocks.AURIC_BLOCK.get());
         blockModels.createTrivialCube(ModBlocks.AURIC_ORE.get());

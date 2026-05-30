@@ -1,12 +1,16 @@
 package net.kaupenjoe.academymod;
 
+import net.kaupenjoe.academymod.data.ModDataAttachments;
+import net.kaupenjoe.academymod.event.ModEvents;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.player.AbstractClientPlayer;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.neoforged.neoforge.client.event.ClientTickEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
@@ -27,5 +31,21 @@ public class AcademyModClient {
         // Some client setup code
         AcademyMod.LOGGER.info("HELLO FROM CLIENT SETUP");
         AcademyMod.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+    }
+
+    @SubscribeEvent
+    public static void onClientTick(ClientTickEvent.Pre event) {
+        Minecraft minecraft = Minecraft.getInstance();
+
+        if(minecraft.level == null || minecraft.player == null) {
+            return;
+        }
+
+        for(AbstractClientPlayer otherPlayer : minecraft.level.players()) {
+            if(otherPlayer.getData(ModDataAttachments.IS_HOVERING) && otherPlayer != minecraft.player
+            && minecraft.player.distanceToSqr(otherPlayer) < 1024) {
+                ModEvents.spawnHoverCubeParticles(otherPlayer);
+            }
+        }
     }
 }

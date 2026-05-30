@@ -6,7 +6,6 @@
   "group": "auric",
   "ingredient": "academymod:auric_ore",
   "result": {
-    "count": 1,
     "id": "academymod:auric_shard"
   }
 }
