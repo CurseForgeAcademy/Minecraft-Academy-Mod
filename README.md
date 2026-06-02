@@ -1,1 +1,1 @@
-## CurseForgeAcademy Mod for NeoForge 1.21.11
+## CurseForgeAcademy Mod for NeoForge
