@@ -22,6 +22,8 @@ public class ModEvents {
 
         if(isWearingAirWalkingArmorItem(player)) {
             handleAirWalking(player);
+        } else if(player.getData(ModDataAttachments.IS_HOVERING)) {
+            player.setData(ModDataAttachments.IS_HOVERING, false);
         }
     }
 
