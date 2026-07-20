@@ -1,15 +1,19 @@
-// 26.1.2	2026-05-29T17:33:56.3700702	Model Definitions - academymod
+// 26.2	2026-07-13T15:26:50.699691	Model Definitions - academymod
 93e18535dab50da39b57a796f55bbee0306e975a assets/academymod/blockstates/auric_block.json
 525a32deb33a9df122db2390edccc66d7c16670c assets/academymod/blockstates/auric_deepslate_ore.json
+ab0ae03b3ffaf8a770a5d8e0b8d85e986476e8d5 assets/academymod/blockstates/auric_end_ore.json
+0d4e8e5322ea454b5b966e854cbb4924955000ce assets/academymod/blockstates/auric_nether_ore.json
 fdae4abada899b542e03c8fc705bbab98ce94bbf assets/academymod/blockstates/auric_ore.json
 374db5296fd7768e31536c69ac2674ce320e1a7f assets/academymod/items/auric_axe.json
 34ac5989be357f8fa7e30258b6b6b8694f14214b assets/academymod/items/auric_block.json
 201d12abc4f4209da322b36499648e78ffb9ffbf assets/academymod/items/auric_boots.json
 016d13db71ecdbc4b14231bfeaa26f5359cca508 assets/academymod/items/auric_chestplate.json
 c8c6f19d7bad5a872a49614ba12538b275b3cc22 assets/academymod/items/auric_deepslate_ore.json
+a8b05a59144d192e8e0c29ba85cdfd77dfde4bf9 assets/academymod/items/auric_end_ore.json
 ca066125f6885bac9ffcf7115932efb9d45efc3d assets/academymod/items/auric_helmet.json
 e9a119ace6876a087768f30adb0d6442a78ed0fa assets/academymod/items/auric_hoe.json
 e93be25e1c77b8fa08997a32c796e536e876ee05 assets/academymod/items/auric_leggings.json
+27908a7de0dcd8970136d95aab64945ef2dc09b4 assets/academymod/items/auric_nether_ore.json
 a2ad30065e1bbe386e25ec0eabec8eb675949c48 assets/academymod/items/auric_ore.json
 fdaad441642f68d8f1169d232d47cf04bc34c62f assets/academymod/items/auric_pickaxe.json
 2ef8c305849a5505ed01bf0759a32593c3bbc954 assets/academymod/items/auric_shard.json
@@ -18,6 +22,8 @@ fdaad441642f68d8f1169d232d47cf04bc34c62f assets/academymod/items/auric_pickaxe.j
 280360966abcf060535f543947eb4ae6ebef05a7 assets/academymod/items/raw_auric.json
 be2f3be0cb30f59d6447369174d2986682a98a17 assets/academymod/models/block/auric_block.json
 e7a14d0d2c0d76ca2fdb773cff9c9ec0e3be1f9f assets/academymod/models/block/auric_deepslate_ore.json
+3ad72a05fbd1683e90ef0418d3f74c944eba1abc assets/academymod/models/block/auric_end_ore.json
+4f61db14f67c6297d858fe759334e9e1b933bd7a assets/academymod/models/block/auric_nether_ore.json
 e52446741c46f3269ddc4c423ca098317c9ee0dd assets/academymod/models/block/auric_ore.json
 b562e2ca6176a830821043e10855a438d00ef6b7 assets/academymod/models/item/auric_axe.json
 66df7cf1aa906ecf700bcc320fdc062b9ef94fd5 assets/academymod/models/item/auric_boots.json

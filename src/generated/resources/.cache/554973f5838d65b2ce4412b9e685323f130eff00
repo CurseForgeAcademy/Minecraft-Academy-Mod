@@ -1,6 +1,6 @@
-// 26.1.2	2026-05-29T17:33:56.3710699	Tags for minecraft:block mod id academymod
+// 26.2	2026-07-13T15:26:50.700693	Tags for minecraft:block mod id academymod
 49079382cb30b716e04c3ee22c58a3a910d917eb data/academymod/tags/block/incorrect_for_auric_tool.json
 cd20e5240639ca1bcee2c9581354e6e09426fa2c data/academymod/tags/block/needs_auric_tool.json
-9b47a135cddcad20d0725479108a195a0727ef2e data/minecraft/tags/block/mineable/pickaxe.json
+303fce5e6b12227a0b3f78f6fb9ce4dd436fb7cf data/minecraft/tags/block/mineable/pickaxe.json
 a0f8c7c5de7f243dcfa114f00370841938053bb0 data/minecraft/tags/block/needs_diamond_tool.json
 aa6d1a497f676d113589fec8c2cebd663906bf1f data/minecraft/tags/block/needs_iron_tool.json

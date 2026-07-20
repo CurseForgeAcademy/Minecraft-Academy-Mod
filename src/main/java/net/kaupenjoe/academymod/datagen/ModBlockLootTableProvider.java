@@ -32,6 +32,12 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.AURIC_DEEPSLATE_ORE.get(),
                 block -> createMultipleOreDrops(ModBlocks.AURIC_DEEPSLATE_ORE.get(), ModItems.RAW_AURIC.get(),
                         3, 8));
+        add(ModBlocks.AURIC_NETHER_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.AURIC_NETHER_ORE.get(), ModItems.RAW_AURIC.get(),
+                        3, 8));
+        add(ModBlocks.AURIC_END_ORE.get(),
+                block -> createMultipleOreDrops(ModBlocks.AURIC_END_ORE.get(), ModItems.RAW_AURIC.get(),
+                        3, 8));
     }
 
     // Adapted from the copperOreDrop method

@@ -2,6 +2,8 @@
   "values": [
     "academymod:auric_ore",
     "academymod:auric_block",
-    "academymod:auric_deepslate_ore"
+    "academymod:auric_deepslate_ore",
+    "academymod:auric_nether_ore",
+    "academymod:auric_end_ore"
   ]
 }

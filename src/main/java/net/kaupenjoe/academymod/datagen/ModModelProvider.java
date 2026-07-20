@@ -40,6 +40,8 @@ public class ModModelProvider extends ModelProvider {
         blockModels.createTrivialCube(ModBlocks.AURIC_BLOCK.get());
         blockModels.createTrivialCube(ModBlocks.AURIC_ORE.get());
         blockModels.createTrivialCube(ModBlocks.AURIC_DEEPSLATE_ORE.get());
+        blockModels.createTrivialCube(ModBlocks.AURIC_NETHER_ORE.get());
+        blockModels.createTrivialCube(ModBlocks.AURIC_END_ORE.get());
     }
 
     @Override

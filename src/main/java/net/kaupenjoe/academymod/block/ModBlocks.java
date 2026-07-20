@@ -28,6 +28,12 @@ public class ModBlocks {
     public static final DeferredBlock<Block> AURIC_DEEPSLATE_ORE = registerBlock("auric_deepslate_ore",
             properties -> new DropExperienceBlock(UniformInt.of(6, 7), properties.strength(4f)
                     .requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+    public static final DeferredBlock<Block> AURIC_NETHER_ORE = registerBlock("auric_nether_ore",
+            properties -> new DropExperienceBlock(UniformInt.of(6, 7), properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.NETHERRACK)));
+    public static final DeferredBlock<Block> AURIC_END_ORE = registerBlock("auric_end_ore",
+            properties -> new DropExperienceBlock(UniformInt.of(6, 7), properties.strength(4f)
+                    .requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {

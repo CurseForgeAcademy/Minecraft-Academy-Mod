@@ -37,6 +37,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.AURIC_BLOCK);
                         output.accept(ModBlocks.AURIC_ORE);
                         output.accept(ModBlocks.AURIC_DEEPSLATE_ORE);
+                        output.accept(ModBlocks.AURIC_NETHER_ORE);
+                        output.accept(ModBlocks.AURIC_END_ORE);
 
 
                     }).build());

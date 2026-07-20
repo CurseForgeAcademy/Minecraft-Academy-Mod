@@ -35,5 +35,6 @@ public class DataGenerators {
         generator.addProvider(true, new ModItemTagProvider(packOutput, lookupProvider));
 
         generator.addProvider(true, new ModEquipmentAssetProvider(packOutput));
+        generator.addProvider(true, new ModDatapackProvider(packOutput, lookupProvider));
     }
 }

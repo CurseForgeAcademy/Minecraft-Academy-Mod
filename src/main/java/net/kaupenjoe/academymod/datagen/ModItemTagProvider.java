@@ -18,23 +18,23 @@ public class ModItemTagProvider extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         tag(ModTags.Items.AURIC_REPAIRABLES)
-                .add(ModItems.AURIC_SHARD.get());
+                .add(ModItems.AURIC_SHARD.getKey());
 
         tag(ItemTags.SWORDS)
-                .add(ModItems.AURIC_SWORD.get());
+                .add(ModItems.AURIC_SWORD.getKey());
         tag(ItemTags.PICKAXES)
-                .add(ModItems.AURIC_PICKAXE.get());
+                .add(ModItems.AURIC_PICKAXE.getKey());
         tag(ItemTags.SHOVELS)
-                .add(ModItems.AURIC_SHOVEL.get());
+                .add(ModItems.AURIC_SHOVEL.getKey());
         tag(ItemTags.AXES)
-                .add(ModItems.AURIC_AXE.get());
+                .add(ModItems.AURIC_AXE.getKey());
         tag(ItemTags.HOES)
-                .add(ModItems.AURIC_HOE.get());
+                .add(ModItems.AURIC_HOE.getKey());
 
-        tag(ItemTags.HEAD_ARMOR).add(ModItems.AURIC_HELMET.get());
-        tag(ItemTags.CHEST_ARMOR).add(ModItems.AURIC_CHESTPLATE.get());
-        tag(ItemTags.LEG_ARMOR).add(ModItems.AURIC_LEGGINGS.get());
-        tag(ItemTags.FOOT_ARMOR).add(ModItems.AURIC_BOOTS.get());
+        tag(ItemTags.HEAD_ARMOR).add(ModItems.AURIC_HELMET.getKey());
+        tag(ItemTags.CHEST_ARMOR).add(ModItems.AURIC_CHESTPLATE.getKey());
+        tag(ItemTags.LEG_ARMOR).add(ModItems.AURIC_LEGGINGS.getKey());
+        tag(ItemTags.FOOT_ARMOR).add(ModItems.AURIC_BOOTS.getKey());
 
     }
 }
