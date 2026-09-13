@@ -1,9 +1,12 @@
 package net.kaupenjoe.academymod;
 
 import net.kaupenjoe.academymod.data.ModDataAttachments;
+import net.kaupenjoe.academymod.entity.ModEntities;
+import net.kaupenjoe.academymod.entity.client.BabymanRenderer;
 import net.kaupenjoe.academymod.event.ModEvents;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.AbstractClientPlayer;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -28,9 +31,7 @@ public class AcademyModClient {
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {
-        // Some client setup code
-        AcademyMod.LOGGER.info("HELLO FROM CLIENT SETUP");
-        AcademyMod.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+        EntityRenderers.register(ModEntities.BABYMAN.get(), BabymanRenderer::new);
     }
 
     @SubscribeEvent

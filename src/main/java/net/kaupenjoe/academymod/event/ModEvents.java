@@ -2,6 +2,8 @@ package net.kaupenjoe.academymod.event;
 
 import net.kaupenjoe.academymod.AcademyMod;
 import net.kaupenjoe.academymod.data.ModDataAttachments;
+import net.kaupenjoe.academymod.entity.ModEntities;
+import net.kaupenjoe.academymod.entity.custom.BabymanEntity;
 import net.kaupenjoe.academymod.item.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
@@ -12,10 +14,16 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
 import net.neoforged.neoforge.event.tick.PlayerTickEvent;
 
 @EventBusSubscriber(modid = AcademyMod.MODID)
 public class ModEvents {
+    @SubscribeEvent
+    public static void registerAttributes(EntityAttributeCreationEvent event) {
+        event.put(ModEntities.BABYMAN.get(), BabymanEntity.createAttributes().build());
+    }
+
     @SubscribeEvent
     public static void onPlayerTick(PlayerTickEvent.Pre event) {
         Player player = event.getEntity();

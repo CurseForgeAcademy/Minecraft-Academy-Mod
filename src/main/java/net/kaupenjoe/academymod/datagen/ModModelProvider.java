@@ -31,6 +31,8 @@ public class ModModelProvider extends ModelProvider {
         itemModels.generateFlatItem(ModItems.AURIC_AXE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
         itemModels.generateFlatItem(ModItems.AURIC_HOE.get(), ModelTemplates.FLAT_HANDHELD_ITEM);
 
+        itemModels.generateFlatItem(ModItems.BABYMAN_SPAWN_EGG.get(), ModelTemplates.FLAT_ITEM);
+
         itemModels.generateTrimmableItem(ModItems.AURIC_HELMET.get(), ModArmorMaterials.AURIC_KEY, ItemModelGenerators.TRIM_PREFIX_HELMET, false);
         itemModels.generateTrimmableItem(ModItems.AURIC_CHESTPLATE.get(), ModArmorMaterials.AURIC_KEY, ItemModelGenerators.TRIM_PREFIX_CHESTPLATE, false);
         itemModels.generateTrimmableItem(ModItems.AURIC_LEGGINGS.get(), ModArmorMaterials.AURIC_KEY, ItemModelGenerators.TRIM_PREFIX_LEGGINGS, false);

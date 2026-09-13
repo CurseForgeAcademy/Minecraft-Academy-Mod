@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "academymod:item/babyman_spawn_egg"
+  }
+}

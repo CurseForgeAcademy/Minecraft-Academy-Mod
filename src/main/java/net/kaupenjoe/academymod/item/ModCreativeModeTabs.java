@@ -33,6 +33,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.AURIC_LEGGINGS);
                         output.accept(ModItems.AURIC_BOOTS);
 
+                        output.accept(ModItems.BABYMAN_SPAWN_EGG);
+
 
                         output.accept(ModBlocks.AURIC_BLOCK);
                         output.accept(ModBlocks.AURIC_ORE);

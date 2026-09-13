@@ -13,6 +13,8 @@
   "item.academymod.auric_leggings": "Auric Leggings",
   "item.academymod.auric_boots": "Auric Boots",
 
+  "item.academymod.babyman_spawn_egg": "Babyman Spawn Egg",
+
 
   "block.academymod.auric_block": "Block of Auric",
   "block.academymod.auric_ore": "Auric Ore",
@@ -21,6 +23,8 @@
   "block.academymod.auric_end_ore": "Auric End Ore",
 
   "creativetab.academymod.academy_tab": "Academy Tab",
+
+  "entity.academymod.babyman": "Babyman",
 
 
   "academymod.configuration.title": "Academy Mod Configs",

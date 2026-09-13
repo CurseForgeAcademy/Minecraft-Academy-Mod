@@ -1,4 +1,4 @@
-// 26.2	2026-07-13T15:26:50.699691	Model Definitions - academymod
+// 26.2	2026-09-10T13:41:33.0268575	Model Definitions - academymod
 93e18535dab50da39b57a796f55bbee0306e975a assets/academymod/blockstates/auric_block.json
 525a32deb33a9df122db2390edccc66d7c16670c assets/academymod/blockstates/auric_deepslate_ore.json
 ab0ae03b3ffaf8a770a5d8e0b8d85e986476e8d5 assets/academymod/blockstates/auric_end_ore.json
@@ -19,6 +19,7 @@ fdaad441642f68d8f1169d232d47cf04bc34c62f assets/academymod/items/auric_pickaxe.j
 2ef8c305849a5505ed01bf0759a32593c3bbc954 assets/academymod/items/auric_shard.json
 79324d1bb6d8336d0ef2729360916324b9325f32 assets/academymod/items/auric_shovel.json
 301e24698936a928148067dfbec2b9d683e3485b assets/academymod/items/auric_sword.json
+e9a83dcbe269b742c274a97bd75a3bf0959f09b1 assets/academymod/items/babyman_spawn_egg.json
 280360966abcf060535f543947eb4ae6ebef05a7 assets/academymod/items/raw_auric.json
 be2f3be0cb30f59d6447369174d2986682a98a17 assets/academymod/models/block/auric_block.json
 e7a14d0d2c0d76ca2fdb773cff9c9ec0e3be1f9f assets/academymod/models/block/auric_deepslate_ore.json
@@ -79,4 +80,5 @@ acf657d1840385495dd37716c663bfd5d141e53d assets/academymod/models/item/auric_pic
 74aec30d50131b84d4b7f199039a298fdebe2949 assets/academymod/models/item/auric_shard.json
 bcda4930fe9d47191b01ef751831a0195ae1ee9e assets/academymod/models/item/auric_shovel.json
 1989052fbdc605ed2ba3da0c6c01ad8ff057bbf1 assets/academymod/models/item/auric_sword.json
+bc0f504e994dd91f3b9c4cc20e472723bfc2cf96 assets/academymod/models/item/babyman_spawn_egg.json
 60834a6ba5bd1eb12e8c5b01031cb2a2c8f4700a assets/academymod/models/item/raw_auric.json

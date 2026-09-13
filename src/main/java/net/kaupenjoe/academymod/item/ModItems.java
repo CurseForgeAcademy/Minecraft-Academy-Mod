@@ -1,10 +1,8 @@
 package net.kaupenjoe.academymod.item;
 
 import net.kaupenjoe.academymod.AcademyMod;
-import net.minecraft.world.item.AxeItem;
-import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ShovelItem;
+import net.kaupenjoe.academymod.entity.ModEntities;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.equipment.ArmorType;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -38,6 +36,9 @@ public class ModItems {
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.AURIC_ARMOR_MATERIAL, ArmorType.LEGGINGS)));
     public static final DeferredItem<Item> AURIC_BOOTS = ITEMS.registerItem("auric_boots",
             properties -> new Item(properties.humanoidArmor(ModArmorMaterials.AURIC_ARMOR_MATERIAL, ArmorType.BOOTS)));
+
+    public static final DeferredItem<Item> BABYMAN_SPAWN_EGG = ITEMS.registerItem("babyman_spawn_egg",
+            properties -> new SpawnEggItem(properties.spawnEgg(ModEntities.BABYMAN.get())));
 
 
     public static void register(IEventBus eventBus) {
